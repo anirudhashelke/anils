@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 header{
-    height: 80px;
     display: grid;
     align-items: center;
     position:fixed;
-    z-index:10;
+    /* z-index:10; */
     top:0;
     left: 0;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
@@ -35,7 +34,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 5px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -45,7 +44,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 5px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -55,7 +54,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 5px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -65,7 +64,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 5px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -75,7 +74,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 5px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -85,7 +84,7 @@ header{
     letter-spacing: .3px;
     color: #282c3f;
     font-weight: 700;
-    padding: 28px 0px;
+    padding: 28px 10px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.3s;
@@ -130,6 +129,7 @@ header{
     font-weight: 700;
 }
  /*header hover */
+
  .header nav .a-men:hover{
     border-bottom: 3px solid #ee5f73;   
 }
@@ -354,57 +354,66 @@ footer h1{
 }
 .a-medal .a-imgs{
     background-image: url("/img/c-1.webp");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+  background-position:-40px 0px;
 }
 .a-medal .a-imgs1{
     background-image: url("/img/c-2.webp");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:-33px 0px;
 }
 .a-medal .a-imgs2{
     background-image: url("/img/c-3.webp");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:-10px 0px;
 }
 .a-medal .a-imgs3{
     background-image: url("/img/c-15.jpg");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:-10px 0px;
 }
 .a-medal .a-imgs4{
     background-image: url("/img/c-10.webp");
-    height: 330px;
+    height:330px;
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:7px 0px;
 }
 .a-medal .a-imgs5{
     background-image: url("/img/c-12.webp");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:38px 0px;
 }
 .a-imgs6{
     background-image: url("/img/d-4.webp");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:9px 0px;
 }
 .a-imgs7{
     background-image: url("/img/d-3.jpg");
-    height: 330px;
+    height:330px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position:-10px 0px;
 }
 .a-imgs8{
     background-image: url("/img/d-1.webp");
-    height: 330px;
+    /* height:330px; */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position:-40px 0px;
 }
 
 /* profile login */
